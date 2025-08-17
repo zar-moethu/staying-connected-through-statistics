@@ -181,8 +181,8 @@ _This 2×2 table captures how often they both called on the same day, or not._
 
 ### 7. Project Files
 
-- [Dataset: Download raw file](https://github.com/zar-moethu/staying-connected-through-statistics/blob/main/data.xlsx)
-- [R Code: View Code.R](https://github.com/zar-moethu/staying-connected-through-statistics/blob/main/Code.R)
+- [Download dataset (Excel)](https://raw.githubusercontent.com/zar-moethu/staying-connected-through-statistics/main/data.xlsx)
+- [Download R code](https://raw.githubusercontent.com/zar-moethu/staying-connected-through-statistics/main/Code.R)
 
 
 
