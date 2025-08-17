@@ -51,7 +51,7 @@ The table below shows the descriptive statistics for each variable:
 
 ### _3.2 Preliminary Insights_
 
-- The summary statistics gave me a good first look at the data. I noticed that **Mom tended to call more often**, while **Dad’s calls lasted longer**, but it wasn’t clear if those differences were actually meaningful or just natural variation.
+- The summary statistics gave us a good first look at the data. I noticed that **Mom tended to call more often**, while **Dad’s calls lasted longer**, but it wasn’t clear if those differences were actually meaningful or just natural variation.
 
 - While descriptive statistics provide a useful overview, they don't test for significance or allow us to draw conclusions about underlying differences.
 
@@ -91,9 +91,10 @@ The table below shows the descriptive statistics for each variable:
   - Degrees of freedom: 4
 
   **Interpretation**
-  Since the _p-value is greater than 0.05_, we _fail to reject the null hypothesis_.  
-  This means the daily number of calls from Mom and Dad **follows a Poisson distribution** indicating that their calling behaviour is statistically consistent, steady, and       
-  naturally spaced over time. The calls happened at a regular and expected pace, without unusual variation.
+  - Since the _p-value is greater than 0.05_, we _fail to reject the null hypothesis_.  
+  - This means the daily number of calls from Mom and Dad **follows a Poisson distribution**.
+  - In other words, Mom and Dad’s combined calling pattern shows **no unusual variation** — no surprising spikes or gaps. Their calls occur at a regular and expected pace,
+    supporting the idea of **steady communication over time**.
 
 
 ### 🔍 _4.2 Student’s t-test_
@@ -113,8 +114,70 @@ The table below shows the descriptive statistics for each variable:
   - 📞 **Average daily calls from Dad:** 0.55  
   - 📈 **p-value:** 0.294
 
-**Interpretation:**  
+ **Interpretation:**  
   - Since the _p-value is greater than 0.05_, we _fail to reject the null hypothesis_.  
   - **_In Section 3.2: Preliminary Insights_**, we noted that Mom appeared to call more frequently than Dad. However, the results of the t-test show that this difference is **not      statistically significant** (p = 0.294).  
   - Based on the t-test, the statistical analysis does **not provide strong enough evidence** to suggest a real difference in their calling patterns.  
-    This means that, from a statistical point of view, both Mom and Dad contribute **similarly** to staying in touch and either one calling brings just as much **happiness**. 
+    This means that, from a statistical point of view, both Mom and Dad contribute **similarly** to staying in touch and either one calling brings just as much **happiness**.
+
+### 🔗 _4.3 Fisher’s Exact Test_
+
+ **Test Question:**  
+ Does Mom calling on a particular day increase the likelihood that Dad also calls on the same day?
+
+ **Purpose:**  
+ To check if there is a relationship between Mom and Dad's calling behavior specifically, whether their calls are statistically associated or just occur independently.
+
+ **Why Fisher’s Exact Test?**  
+ This test is used for small sample sizes (like our 20-day dataset) and 2×2 tables. It helps determine if there is a **statistically significant association** between two binary  
+ variables. In this case, whether Mom called and whether Dad called.
+
+ **Step 1: Prepare a Contingency Table**  
+ Before running the test, we created a **2×2 contingency table** showing the number of days each call combination occurred:
+
+|                  | Dad Called | Dad No Call |
+|------------------|------------|-------------|
+| **Mom Called**   | 4 days     | 3 days      |
+| **Mom No Call**  | 7 days     | 6 days      |
+
+ This table summarizes the **daily co-occurrence** of calls:
+ - 4 days: Both Mom and Dad called  
+ - 3 days: Only Mom called  
+ - 7 days: Only Dad called  
+ - 6 days: Neither called  
+
+_This 2×2 table captures how often they both called on the same day, or not._
+
+ **Step 2: Run the Fisher’s Exact Test**  
+ Using this table, we applied the Fisher’s Exact Test with the alternative hypothesis set to "greater" (testing whether Mom calling makes Dad more likely to call).
+
+ **Results:**
+ - p-value: 0.63  
+ - Alternative hypothesis: Greater (Mom calling → Dad more likely to call)
+
+**Interpretation:**  
+ - Since the _p-value is greater than 0.05_, we _fail to reject the null hypothesis_.  
+ - This means there is **no statistically significant** association between Mom and Dad’s calls. In other words, their calling decisions appear to be **independent**.
+   one parent calling doesn't reliably predict whether the other one will too.
+ - The result suggests that Mom and Dad **don’t coordinate** their calling. Their communication is likely **self-initiated**, **not driven by the other’s actions**.
+
+### ✅ 5. Final Conclusion: What the Data Tells Us
+
+ - This project started from something personal, staying connected with my parents while living abroad. I wanted to understand if the way we communicate had any patterns, and whether those patterns meant something statistically.
+
+ - After running three statistical tests (Chi-Square Goodness-of-Fit, t-test, and Fisher’s Exact Test), here’s what I found:
+
+ - The **total number of daily calls** follows a statistically steady pattern, showing no unexpected spikes or gaps,  suggesting a natural and consistent rhythm in staying in touch (Chi-Square test)
+ - Although **Mom tended to call more often**, and **Dad’s calls were sometimes longer**, these differences were **not statistically significant**, both parents contribute equally to our connection, even if the style differs (t-test)
+ - There’s **no evidence of coordination** between them  whether one parent calls doesn’t affect whether the other does. Their calling decisions are independent, which probably just means they each reach out when they feel like it (Fisher’s test)
+
+### 6. 🎯 So, what does this all mean?
+
+ - Statistically, there may be no significant differences or dependencies, but emotionally every call matters. Whether it’s Mom checking what I have eaten the whole day, or Dad calling randomly to say hi, each moment of connection adds up.
+
+ - This project showed me that **data doesn't have to be big to be meaningful**. A simple dataset of daily calls can tell a story about love, independence, and connection that’s consistent, comforting, and real  even if it doesn’t follow a dramatic trend.
+
+- And sometimes, **“no significant difference”** is a beautiful finding  because it means both my parents show up equally in my life, in their own ways.
+
+
+  
