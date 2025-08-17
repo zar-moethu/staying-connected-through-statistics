@@ -68,7 +68,6 @@ The table below shows the descriptive statistics for each variable:
   1. Chi-Square Goodness-of-Fit Test
   2. Student’s t-test
   3. Fisher’s Exact Test
-  4. Linear Regression** 
 
  
 ### 🧪 _4.1 Chi-Square Goodness-of-Fit Test_
@@ -93,9 +92,8 @@ The table below shows the descriptive statistics for each variable:
   **Interpretation**
   - Since the _p-value is greater than 0.05_, we _fail to reject the null hypothesis_.  
   - This means the daily number of calls from Mom and Dad **follows a Poisson distribution**.
-  - In other words, Mom and Dad’s combined calling pattern shows **no unusual variation** — no surprising spikes or gaps. Their calls occur at a regular and expected pace,
-    supporting the idea of **steady communication over time**.
-
+  - In other words, Mom and Dad’s combined calling pattern shows **no unusual variation** — no surprising spikes or gaps. Their calls
+    occur at a regular and expected pace, supporting the idea of **steady communication over time**.
 
 ### 🔍 _4.2 Student’s t-test_
 
@@ -107,7 +105,8 @@ The table below shows the descriptive statistics for each variable:
 
   **Why t-test?**  
   The Student’s t-test is a statistical method used to compare the means of two groups.  
-  In this case, we’re testing whether Mom’s average call frequency (0.90 calls/day) is significantly different from Dad’s average (0.55 calls/day).
+  In this case, we’re testing whether Mom’s average call frequency (0.90 calls/day) is significantly different from Dad’s average (0.55 
+  calls/day).
 
   **Results:**
   - 📞 **Average daily calls from Mom:** 0.90  
@@ -116,9 +115,12 @@ The table below shows the descriptive statistics for each variable:
 
  **Interpretation:**  
   - Since the _p-value is greater than 0.05_, we _fail to reject the null hypothesis_.  
-  - **_In Section 3.2: Preliminary Insights_**, we noted that Mom appeared to call more frequently than Dad. However, the results of the t-test show that this difference is **not      statistically significant** (p = 0.294).  
-  - Based on the t-test, the statistical analysis does **not provide strong enough evidence** to suggest a real difference in their calling patterns.  
-    This means that, from a statistical point of view, both Mom and Dad contribute **similarly** to staying in touch and either one calling brings just as much **happiness**.
+  - **_In Section 3.2: Preliminary Insights_**, we noted that Mom appeared to call more frequently than Dad. However, the results of
+    the t-test show that this difference is **not      statistically significant** (p = 0.294).  
+  - Based on the t-test, the statistical analysis does **not provide strong enough evidence** to suggest a real difference in their
+    calling patterns.
+  - This means that, from a statistical point of view, both Mom and Dad contribute **similarly** to staying in touch and either one
+    calling brings just as much **happiness**.
 
 ### 🔗 _4.3 Fisher’s Exact Test_
 
@@ -178,7 +180,7 @@ _This 2×2 table captures how often they both called on the same day, or not._
  - This project showed me that **data doesn't have to be big to be meaningful**. A simple dataset of daily calls can tell a story about love, independence, and connection that’s consistent, comforting, and real  even if it doesn’t follow a dramatic trend.
 
 - And sometimes, **“no significant difference”** is a beautiful finding  because it means both my parents show up equally in my life, in their own ways.
-- 
+
 ### 📁  7. Project Files
 
 - 📊 [Download Dataset (data.xlsx)](https://github.com/zar-moethu/staying-connected-through-statistics/raw/main/data.xlsx)
