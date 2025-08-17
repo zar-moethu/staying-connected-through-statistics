@@ -178,19 +178,18 @@ _This 2×2 table captures how often they both called on the same day, or not._
  - This project showed me that **data doesn't have to be big to be meaningful**. A simple dataset of daily calls can tell a story about love, independence, and connection that’s consistent, comforting, and real  even if it doesn’t follow a dramatic trend.
 
 - And sometimes, **“no significant difference”** is a beautiful finding  because it means both my parents show up equally in my life, in their own ways.
-
+- 
 ### 7. Project Files
 
-- [Download dataset (Excel)](https://raw.githubusercontent.com/zar-moethu/staying-connected-through-statistics/main/data.xlsx)
-- [Download R code](https://raw.githubusercontent.com/zar-moethu/staying-connected-through-statistics/main/Code.R)
+- [R Code](https://github.com/zar-moethu/staying-connected-through-statistics/blob/main/Code.R)
+- [Dataset](https://github.com/zar-moethu/staying-connected-through-statistics/blob/main/data.xlsx)
 
 
+### 📘 8. How to Use This
 
-📘How to Use This
+- You are welcome to explore the code, dataset, and visualisations for learning, reference, or further development.
+- **Statistics doesn’t have to be complicated** — this project is meant to show that even simple data can tell meaningful stories.
+- Data analysis and statistical thinking are ongoing learning journeys. This work is a living document, open to iteration, feedback, and collaboration. Its value lies not only in the results but also in the process of discovery and reflection.
 
-You are welcome to explore the code, dataset and visualisations for learning, reference or further development.
-Data analysis is an ongoing learning journey. This work is a living document, open to iteration, feedback and collaboration, as its value lies not only in the results but also in the learning that comes from the process of discovery.
-⚠️ Disclaimer: This dashboard is intended for visual learning and demonstration purposes only — not for business or operational use.
+⚠️ **Disclaimer:** This dashboard is intended for visual learning and demonstration purposes only — not for business or operational use.
 
-
-  
