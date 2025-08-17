@@ -194,5 +194,5 @@ _This 2×2 table captures how often they both called on the same day, or not._
 - **Statistics doesn’t have to be complicated** — this project is meant to show that even simple data can tell meaningful stories.
 - Data analysis and statistical thinking are ongoing learning journeys. This work is a living document, open to iteration, feedback, and collaboration. Its value lies not only in the results but also in the process of discovery and reflection.
 
-⚠️ **Disclaimer:** This dashboard is intended for visual learning and demonstration purposes only — not for business or operational use.
+⚠️ **Disclaimer:** This project is intended for visual learning and demonstration purposes only — not for business or operational use.
 
