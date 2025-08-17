@@ -171,13 +171,27 @@ _This 2×2 table captures how often they both called on the same day, or not._
  - Although **Mom tended to call more often**, and **Dad’s calls were sometimes longer**, these differences were **not statistically significant**, both parents contribute equally to our connection, even if the style differs (t-test)
  - There’s **no evidence of coordination** between them  whether one parent calls doesn’t affect whether the other does. Their calling decisions are independent, which probably just means they each reach out when they feel like it (Fisher’s test)
 
-### 6. 🎯 So, what does this all mean?
+### 6. 🎯 Conclusion - what does this all mean?
 
  - Statistically, there may be no significant differences or dependencies, but emotionally every call matters. Whether it’s Mom checking what I have eaten the whole day, or Dad calling randomly to say hi, each moment of connection adds up.
 
  - This project showed me that **data doesn't have to be big to be meaningful**. A simple dataset of daily calls can tell a story about love, independence, and connection that’s consistent, comforting, and real  even if it doesn’t follow a dramatic trend.
 
 - And sometimes, **“no significant difference”** is a beautiful finding  because it means both my parents show up equally in my life, in their own ways.
+
+Project Files
+
+- Python Code: View Python_Code.ipynb
+
+- Dataset: Download raw file
+
+-Visuals: View Output folder.
+
+📘How to Use This
+
+You are welcome to explore the code, dataset and visualisations for learning, reference or further development.
+Data analysis is an ongoing learning journey. This work is a living document, open to iteration, feedback and collaboration, as its value lies not only in the results but also in the learning that comes from the process of discovery.
+⚠️ Disclaimer: This dashboard is intended for visual learning and demonstration purposes only — not for business or operational use.
 
 
   
