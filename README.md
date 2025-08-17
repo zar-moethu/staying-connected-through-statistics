@@ -179,13 +179,12 @@ _This 2×2 table captures how often they both called on the same day, or not._
 
 - And sometimes, **“no significant difference”** is a beautiful finding  because it means both my parents show up equally in my life, in their own ways.
 
-Project Files
+### 7. Project Files
 
-- Python Code: View Python_Code.ipynb
+- [Dataset: Download raw file](https://github.com/zar-moethu/staying-connected-through-statistics/blob/main/data.xlsx)
+- [R Code: View Code.R](https://github.com/zar-moethu/staying-connected-through-statistics/blob/main/Code.R)
 
-- Dataset: Download raw file
 
--Visuals: View Output folder.
 
 📘How to Use This
 
