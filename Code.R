@@ -56,6 +56,3 @@ The chi-square test is as follow:
 B <- sum((o-e)^2/e)
 B
 1-pchisq(B,df=5-1)
-```
-Interpretation : as the p-value is higher than the significance level of 0.05, we failed to reject the null hypothesis. So, as per the result from the chi-square test, the observed data does not significantly deviate from what I would expect based on a specific distribution (in this case, the Poisson distribution with a mean of 1.45. In simpler terms, it means that my actual observations of the number of calls made align well with what you would predict based on the Poisson distribution with a mean of 1.45. It further means that the calling patterns from/to Mom and Dad are well in line with the expected behavior of Poisson distribution.
-                                                                                                                                                                                                                                                                                    
